@@ -8,5 +8,7 @@ on:
 
 jobs:
   build: 
-    runs-on: ubantu-latest
-    container: node:20-a
+
+    runs-on: ubuntu-latest
+    container: node:20-alpine
+
